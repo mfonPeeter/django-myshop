@@ -8,48 +8,49 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-08 14:23+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2025-06-11 05:11+0100\n"
+"PO-Revision-Date: 2025-06-11 04:37+0000\n"
+"Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.10.2\n"
 
 #: orders/models.py:10
 msgid "first name"
-msgstr ""
+msgstr "Nombre"
 
 #: orders/models.py:11
 msgid "last name"
-msgstr ""
+msgstr "Apellido"
 
 #: orders/models.py:12
 msgid "e-mail"
-msgstr ""
+msgstr "Correo electrónico"
 
 #: orders/models.py:13
 msgid "address"
-msgstr ""
+msgstr "Dirección"
 
 #: orders/models.py:14
 msgid "postal code"
-msgstr ""
+msgstr "Código postal"
 
 #: orders/models.py:15
 msgid "city"
-msgstr ""
+msgstr "Ciudad"
 
 #: orders/templates/orders/order/create.html:5
 #: orders/templates/orders/order/create.html:9
 msgid "Checkout"
-msgstr ""
+msgstr "Pagar or Finalizar compra"
 
 #: orders/templates/orders/order/create.html:11
 msgid "Your order"
-msgstr ""
+msgstr "Tu pedido"
 
 #: orders/templates/orders/order/create.html:20
 #, python-format
@@ -58,18 +59,16 @@ msgid ""
 "            \"%(code)s\" (%(discount)s%% off)\n"
 "          "
 msgstr ""
+"\n"
+"\"%(code)s\" (%(discount)s%% de descuento)"
 
 #: orders/templates/orders/order/create.html:27
 #: orders/templates/orders/order/pdf.html:60
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #: orders/templates/orders/order/create.html:32
 msgid "Place order"
-msgstr ""
-
-#: orders/templates/orders/order/pdf.html:4
-msgid "Invoice - My Shop"
 msgstr ""
 
 #: orders/templates/orders/order/pdf.html:10
@@ -123,3 +122,7 @@ msgstr ""
 #: orders/templates/orders/order/pdf.html:69
 msgid "Pending payment"
 msgstr ""
+
+#: orders/urls.py:7
+msgid "create/"
+msgstr "Crear"
