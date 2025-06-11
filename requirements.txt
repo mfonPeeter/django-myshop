@@ -14,6 +14,7 @@ colorama==0.4.6
 cssbeautifier==1.15.4
 cssselect2==0.8.0
 Django==5.2.1
+django-localflavor==5.0
 django-parler==2.3
 django-rosetta==0.10.2
 djlint==1.36.4
@@ -38,6 +39,7 @@ pydyf==0.11.0
 pyphen==0.17.2
 python-dateutil==2.9.0.post0
 python-decouple==3.8
+python-stdnum==2.1
 pytz==2025.2
 PyYAML==6.0.2
 redis==6.2.0
